@@ -4,7 +4,7 @@ Done-Create virtual env
 Done-Install and setup
 Done-Init database,superuser,test run
 Done-create core app for base pages
--create app for userprofile
+Done-create app for userprofile
 -create app for profile
     -Add Category model
 -List out newest product on the front page
