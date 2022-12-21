@@ -5,11 +5,11 @@ Done-Install and setup
 Done-Init database,superuser,test run
 Done-create core app for base pages
 Done-create app for userprofile
--create app for profile
-    -Add Category model
--List out newest product on the front page
--Product detail view
--Categroy view
+Done-create app for profile
+    Done-Add Category model
+Done-List out newest product on the front page
+Done-Product detail view
+Done -Categroy view
 -Simple search
 -Vendor detail page
 -Make it possible to sign up, log in and log out
