@@ -10,10 +10,12 @@ Done-create app for profile
 Done-List out newest product on the front page
 Done-Product detail view
 Done -Categroy view
+Done-show vendor on product detail page
+Done-Add imagest to the products
+Done-Vendor detail page
+Done-Make it possible to sign up, log in and log out
+Done-Create my account page
 -Simple search
--Vendor detail page
--Make it possible to sign up, log in and log out
--Create my account page
 -Add product to the Cart 
 -View Cart
 -Checkout
