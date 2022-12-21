@@ -12,6 +12,12 @@
       <div class="logo">
         <a href="/" class="text-2xl text-white">Unai</a>
       </div>
+      <div class="search">
+        <form action="/search/" method="get">
+          <input type="search" name="query" id="" placeholder="search">
+          <button>Search</button>
+        </form>
+      </div>
       <div class="menu space-x-4">
         {% menu %}
         {% if request.user.is_authenticated %}
