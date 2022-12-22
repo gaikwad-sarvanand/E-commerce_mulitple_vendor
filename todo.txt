@@ -15,10 +15,10 @@ Done-Add imagest to the products
 Done-Vendor detail page
 Done-Make it possible to sign up, log in and log out
 Done-Create my account page
--Simple search
+DOne-Simple search
+Done-Admin pages for the Vendor
 -Add product to the Cart 
 -View Cart
 -Checkout
 -Implement payment gateway
--Admin pages for the Vendor
 -Deploy Project
