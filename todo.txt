@@ -18,7 +18,11 @@ Done-Create my account page
 DOne-Simple search
 Done-Admin pages for the Vendor
 Done-Add product to the Cart 
--View Cart
--Checkout
+Done-View Cart
+Done-Make it possible to remove product from cart
+-Make it possible to increament/decrement product in the cart
+-Fix the design on the cart page
+-Create a checkout page
+-Checkout functionality
 -Implement payment gateway
 -Deploy Project
