@@ -20,7 +20,8 @@ Done-Admin pages for the Vendor
 Done-Add product to the Cart 
 Done-View Cart
 Done-Make it possible to remove product from cart
--Make it possible to increament/decrement product in the cart
+Done-Make it possible to increament/decrement product in the cart
+-Add thumnails to the product
 -Fix the design on the cart page
 -Create a checkout page
 -Checkout functionality
