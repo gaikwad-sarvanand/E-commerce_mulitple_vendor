@@ -17,7 +17,7 @@ Done-Make it possible to sign up, log in and log out
 Done-Create my account page
 DOne-Simple search
 Done-Admin pages for the Vendor
--Add product to the Cart 
+Done-Add product to the Cart 
 -View Cart
 -Checkout
 -Implement payment gateway
