@@ -22,8 +22,17 @@ Done-View Cart
 Done-Make it possible to remove product from cart
 Done-Make it possible to increament/decrement product in the cart
 Done-Add thumnails to the product
--Fix the design on the cart page
--Create a checkout page
--Checkout functionality
+Done-Fix the design on the cart page
+DOne-Create a checkout page
+Done-Separate shoppers from Vendors
+Done-Add cart button in menu
+Done-Checkout functionality
+Done-Vendors must be able to see their orders
+-only authenticate user can checkout only
 -Implement payment gateway
+    -get api keys from stripe
+    -install stripe and add credentials in settings.payment
+    -pass the pub key into the checkout view
+    -create stripe checkout when creating order
+    -create success page
 -Deploy Project

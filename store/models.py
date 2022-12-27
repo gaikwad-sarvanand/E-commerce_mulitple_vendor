@@ -70,3 +70,28 @@ class Product(models.Model):
         name = image.name.replace('uploads/product_images/','')
         thumbnail = File(thumb_io, name=name)
         return thumbnail
+    
+
+
+class Order(models.Model):
+    first_name = models.CharField(max_length=225)
+    last_name = models.CharField(max_length=225)
+    address =models.TextField(max_length=250)
+    pincode = models.CharField(max_length=225)
+    city= models.CharField(max_length=225)
+    paid_amount=models.IntegerField(blank=True,null=True)
+    merchant_id = models.CharField(max_length=225)
+    total_cost = models.IntegerField(default=0)
+    is_paid = models.BooleanField(default=False)
+    created_by = models.ForeignKey(User,related_name='orders',on_delete=models.SET_NULL ,null=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    
+class OrderItem(models.Model):
+    order = models.ForeignKey(Order,related_name='items',on_delete=models.CASCADE)
+    product = models.ForeignKey(Product,related_name='items',on_delete=models.CASCADE)
+    price = models.IntegerField()
+    quantity = models.IntegerField(default=1)
+    
+    
+    def get_display_price(self):
+        return self.price/100
