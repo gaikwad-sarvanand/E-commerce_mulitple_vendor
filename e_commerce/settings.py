@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'userprofile',
-    'store'
+    'store',
 ]
 
 MIDDLEWARE = [
@@ -57,8 +57,13 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+WEBSITE_URL = 'http://127.0.0.1:8000/'
 
 ROOT_URLCONF = 'e_commerce.urls'
+
+STRIPE_PUB_KEY ='pk_test_51MJVP8SAGR1Jm0KQ0HcnDX241VTSiAUpuePNTjcnICq7e6kolCVIiKzHQjzA62EelacMy66L3kQx6kW9lKDrilRX00Ygjgnak5'
+
+STRIPE_SECRET_KEY ='sk_test_51MJVP8SAGR1Jm0KQgxF20yUGmagIbTdmim2rQDoQbgTkV9y70ckeuVdMtazH87vLFP4hbMIrJ6Qc8bOEZ1Z7NmsR00QCAMn2uP'
 
 TEMPLATES = [
     {
