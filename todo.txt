@@ -35,4 +35,6 @@ Done-only authenticate user can checkout only
     Done-pass the pub key into the checkout view
     Done-create stripe checkout when creating order
     Done-create success page
+Done-Adding validation in check form
+-Add settings file for prouduction
 -Deploy Project
